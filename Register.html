@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamaraj</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="registration-header">
+        <img class="logo" src="Logo/header.logo.svg" alt="logo">
+        <marquee direction="scroll">
+            Admissions are open for current year!!
+        </marquee>
+        <table class="nav_links" >
+            <tr>
+                <td ><a href="index.html" class="toplinks">Home</a></td>
+                <td ><a href="About.html" class="toplinks">About us</a></td>
+                <td ><a href="course.html" class="toplinks">Course</a></td>
+                <td ><a href="contact.html" class="toplinks">Contact</a></td>
+                <td ><a href="Register.html" class="toplinks">Logout </a></td>
+            </tr>
+          </table>
+
+
+        <main>
+            <section class=" user-container login-display">
+                
+                    <div class="registration">
+                        <div class="grid-two--column">
+                            <div class="form-text">
+                                <h2>Welcome Back!!</h2>
+                                <p>To keep connected with us, please login with your personal Id</p>
+                                <button class="login-btn">Login Here</button>
+                            </div>
+                            <div class="registration-form">
+                                <h2>Create Account</h2>
+                                <div class="social-icons">
+                                    <a href="https://www.facebook.com/kamarajeng/"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/kamarajeng/"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://twitter.com/arisewithkcet/"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="https://www.youtube.com/@Kamarajeng"><i class="fa-brands fa-youtube"></i></a>
+                                    <a href="http://kamarajengg.edu.in/"><i class="fa-brands fa-google-plus"></i></a>
+
+                                </div>
+                                <form name="Register-form">
+                                    <div class="registerflex">
+                                        <div class="input-field">
+                                            <label for ="username">Username:</label>
+                                            <input type="text" name="username" id="username" placeholder="Name">
+                                        </div>
+                                        <div class="input-field">
+                                            <label for="Email">Email:</label>
+                                            <input type="email" name="email" id="Email" placeholder="21uad0***@kamarajengg.edu.in">
+                                        </div>
+                                        <div class="input-field">
+                                            <label for="Password">Password:</label>
+                                            <input type="password" name="#" id="Password" placeholder="Password">
+                                        <div class="input-field">
+                                            <label for="Phone Number">Phone Number:</label>
+                                            <input type="phone" name="#" id="Phone" placeholder="#91 987####">
+                                        </div>
+                                        <div class="input-field">
+                                            <label for="Gender">Gender:</label>
+                                            <input type="radio" name="gender">Male
+                                            <input type="radio" name="gender">Female
+                                        </div>
+                                        <div class="input-field">
+                                            <label for="DOB">DOB    :</label>
+                                            <input type="date">
+                                        </div> 
+                                        <div class="input-field">
+                                            <label for="Phone Number">Address    :</label>
+                                            <textarea name="welcomeMessage" rows="4"cols="40">Enter Your Address</textarea>
+                                        </div>
+                                        <div class="input-field" ></div> 
+                                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                            <label for="vehicle1"> I Accept the Terms and Condition</label><br>
+                                        </div>
+                                        <div class="input-field">
+                                            <input type="submit" value="Register" onclick="validation()">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="login">
+                        <div class="grid-two--column">
+                            <div class="form-text">
+                                <h2>Hello, Student!!</h2>
+                                <p>Enter your personal details and start your journey with us</p>
+                                <button class="registration-btn">Register Here</button>
+                            </div>
+                            <div class="Login-form">
+                                <h2>Sign In</h2>
+                                <div class="social-icons">
+                                    <a href="https://www.facebook.com/kamarajeng/"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/kamarajeng/"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://twitter.com/arisewithkcet/"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="https://www.youtube.com/@Kamarajeng"><i class="fa-brands fa-youtube"></i></a>
+                                    <a href="http://kamarajengg.edu.in/"><i class="fa-brands fa-google-plus"></i></a>
+
+                                </div>
+                                <p> or use your Account</p>
+                                <form action="#">
+                                    <div class="input-field">
+                                        <label for ="username1">
+                                        <input type="text" name="#" id="username1" placeholder="Name">
+                                        </label>
+                                    </div>
+                                
+                                    <div class="input-field">
+                                        <label for="Password1">
+                                            <input type="password" name="#" id="Password1" placeholder="Password">
+                                        </label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="submit" value="Login">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    
+                    </div>
+               
+            </section>
+        </main>
+        
+    </header>
+    
+    <script type="text/javascript" src="my-script.js"></script>
+    <footer>
+        <div class="footercontainer">
+            <div class="SocialIcon">
+                <a href="https://www.facebook.com/kamarajeng/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/kamarajeng/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/arisewithkcet/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com/@Kamarajeng" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="http://kamarajengg.edu.in/" target="_blank"><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+            <div class="footernav">
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="About.html" >About us</a></li>
+                    <li><a href="course.html" >Course</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
+                    <li><a href="Register.html">Log In</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footerbottom">
+            <p>Copyright &copy; 2022 Kamaraj Engineering College. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
