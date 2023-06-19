@@ -137,15 +137,15 @@
             function develop_validation()
             {
                 
-                var fname=document.form1.fname.value;
+                var fname=document.getElementById('fname').value;
                 if(fname==""){   
                 alert("Please enter the First Name");document.form1.fname.focus();return false;  
                 }
-                var lname=document.form1.lname.value;
+                var lname=document.getElementById('lname').value;
                 if(lname==""){   
                 alert("Please enter the Last Name");document.form1.lname.focus();return false;  
                 }
-                var email=document.form1.email.value;
+                var email=document.getElementById('email').value;
                 if(email==""){   
                 alert("Please enter the Email id");document.form1.email.focus();return false;  
                 }
@@ -157,7 +157,7 @@
                     return false;
                 }
                 }
-                var date=document.form1.date.value;
+                var date=document.getElementById('date').value;
                 if(date==""){
                     alert("Please select Date of Birth ");document.form1.date.focus();return false;
                 }
@@ -169,7 +169,7 @@
                     return false;
                     }
                 });
-                var phone=document.form1.phone.value;
+                var phone=document.getElementById('phone').value;
                 if(phone==""){   
                 alert("Please enter the Phone Number");document.form1.phone.focus();return false;  
                 } 
@@ -177,16 +177,16 @@
                 {
                     alert("Please enter the Phone Number");document.form1.phone.focus();return false;  
                 }
-                var Address=document.form1.Address.value;
+                var Address=document.getElementById('address').value;
                 if(Address==""){   
                 alert("Please enter the  Address");document.form1.Address.focus();return false;  
                 }    
                 
-                var password=document.form1.password.value;
+                var password=document.getElementById('password').value;
                 if(password==""){   
                 alert("Please enter the Password");document.form1.password.focus();return false;  
                 }   
-                var cpassword=document.form1.cpassword.value;
+                var cpassword=document.getElementById('cpassword').value;
                 if(cpassword==""){   
                 alert("Please enter the Confirm Password");document.form1.cpassword.focus();return false;  
                 } 
