@@ -7,6 +7,56 @@
     <title>Kamaraj</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .register-section{
+            display:inline-block;
+            padding: 50px 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .h3-tag{
+            text-align:center;
+        }
+
+
+        .table-body{
+          
+            display: inline-block;
+            margin: 50px 70px;
+            width:350px;
+            height:20rem;
+            
+            padding: 40px 20px;
+            border-color: black;
+            border-radius: 20px;
+            border:2px solid black;
+        }
+        .submit-btn{
+            padding: 7px 20px;
+            margin-top: 20px;
+            background-color: rgb(24, 141, 24);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.1s;
+            border-width:1px;
+        }
+
+        .submit-btn:hover{
+            background-color: rgb(36, 183, 194);
+            color: black;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -21,117 +71,136 @@
                 <td ><a href="About.html" class="toplinks">About us</a></td>
                 <td ><a href="course.html" class="toplinks">Course</a></td>
                 <td ><a href="contact.html" class="toplinks">Contact</a></td>
-                <td ><a href="Register.html" class="toplinks">Logout </a></td>
+                <td ><a href="Register.html" class="toplinks">Login </a></td>
             </tr>
-          </table>
-
-
-        <main>
-            <section class=" user-container login-display">
-                
-                    <div class="registration">
-                        <div class="grid-two--column">
-                            <div class="form-text">
-                                <h2>Welcome Back!!</h2>
-                                <p>To keep connected with us, please login with your personal Id</p>
-                                <button class="login-btn">Login Here</button>
-                            </div>
-                            <div class="registration-form">
-                                <h2>Create Account</h2>
-                                <div class="social-icons">
-                                    <a href="https://www.facebook.com/kamarajeng/"><i class="fa-brands fa-facebook"></i></a>
-                                    <a href="https://www.instagram.com/kamarajeng/"><i class="fa-brands fa-instagram"></i></a>
-                                    <a href="https://twitter.com/arisewithkcet/"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="https://www.youtube.com/@Kamarajeng"><i class="fa-brands fa-youtube"></i></a>
-                                    <a href="http://kamarajengg.edu.in/"><i class="fa-brands fa-google-plus"></i></a>
-
-                                </div>
-                                <form name="Register-form">
-                                    <div class="registerflex">
-                                        <div class="input-field">
-                                            <label for ="username">Username:</label>
-                                            <input type="text" name="username" id="username" placeholder="Name">
-                                        </div>
-                                        <div class="input-field">
-                                            <label for="Email">Email:</label>
-                                            <input type="email" name="email" id="Email" placeholder="21uad0***@kamarajengg.edu.in">
-                                        </div>
-                                        <div class="input-field">
-                                            <label for="Password">Password:</label>
-                                            <input type="password" name="#" id="Password" placeholder="Password">
-                                        <div class="input-field">
-                                            <label for="Phone Number">Phone Number:</label>
-                                            <input type="phone" name="#" id="Phone" placeholder="#91 987####">
-                                        </div>
-                                        <div class="input-field">
-                                            <label for="Gender">Gender:</label>
-                                            <input type="radio" name="gender">Male
-                                            <input type="radio" name="gender">Female
-                                        </div>
-                                        <div class="input-field">
-                                            <label for="DOB">DOB    :</label>
-                                            <input type="date">
-                                        </div> 
-                                        <div class="input-field">
-                                            <label for="Phone Number">Address    :</label>
-                                            <textarea name="welcomeMessage" rows="4"cols="40">Enter Your Address</textarea>
-                                        </div>
-                                        <div class="input-field" ></div> 
-                                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                                            <label for="vehicle1"> I Accept the Terms and Condition</label><br>
-                                        </div>
-                                        <div class="input-field">
-                                            <input type="submit" value="Register" onclick="validation()">
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="login">
-                        <div class="grid-two--column">
-                            <div class="form-text">
-                                <h2>Hello, Student!!</h2>
-                                <p>Enter your personal details and start your journey with us</p>
-                                <button class="registration-btn">Register Here</button>
-                            </div>
-                            <div class="Login-form">
-                                <h2>Sign In</h2>
-                                <div class="social-icons">
-                                    <a href="https://www.facebook.com/kamarajeng/"><i class="fa-brands fa-facebook"></i></a>
-                                    <a href="https://www.instagram.com/kamarajeng/"><i class="fa-brands fa-instagram"></i></a>
-                                    <a href="https://twitter.com/arisewithkcet/"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="https://www.youtube.com/@Kamarajeng"><i class="fa-brands fa-youtube"></i></a>
-                                    <a href="http://kamarajengg.edu.in/"><i class="fa-brands fa-google-plus"></i></a>
-
-                                </div>
-                                <p> or use your Account</p>
-                                <form action="#">
-                                    <div class="input-field">
-                                        <label for ="username1">
-                                        <input type="text" name="#" id="username1" placeholder="Name">
-                                        </label>
-                                    </div>
-                                
-                                    <div class="input-field">
-                                        <label for="Password1">
-                                            <input type="password" name="#" id="Password1" placeholder="Password">
-                                        </label>
-                                    </div>
-                                    <div class="input-field">
-                                        <input type="submit" value="Login">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    
-                    </div>
-               
-            </section>
-        </main>
-        
+        </table>
     </header>
+    <section class="register-section">
+        
+        
+            <form  name="form1" action="" method="post" class="form-body">
+                <h3 class="h3-tag">Registration Form</h3>
+                
+                    <table class="table-body">
+                       
+                        <tr>
+                            <td>First Name</td><td>:</td>
+                            <td><input type="text" name="fname" id="fname"></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name</td><td>:</td>
+                            <td><input type="text" name="lname" id="lname"></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td><td>:</td>
+                            <td><input type="text" name="email" id="email"></td>
+                        </tr>
+                        <tr>
+                            <td>Date Of Birth</td><td>:</td>
+                            <td><input type="date" name="date" id="date"></td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td><td>:</td>
+                            <td style="font-size: 12px;
+                            font-family: Arial, Helvetica, sans-serif;
+                            display: flex;
+                            justify-content:space-evenly;
+                            align-items: center;
+                            "><input type="radio" name="r1" id="rbtn1">Female
+                            <input type="radio" name="r2" id="rbtn2">Male</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td><td>:</td>
+                            <td><input type="text" name="phone" id="phone" maxlength="10"></td>
+                        </tr>
+                        <tr>
+                            <td>Address</td><td>:</td>
+                            <td><input type="text" name="Address" id="Address"></td>
+                        </tr>
+                        <tr>
+                            <td>Password</td><td>:</td>
+                            <td><input type="password" name="password" id="password"></td>
+                        </tr>
+                        <tr>
+                            <td>Confirm Password</td><td>:</td>
+                            <td><input type="password" name="cpassword" id="cpassword"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" align="center"><input type="submit" name="submit" id="submit" value="Register" onClick="return develop_validation();" class="submit-btn"></td>
+                        </tr>
+                    </table>
+               
+			</form>
+			
+       
+        <script type="text/javascript">
+            function develop_validation()
+            {
+                
+                var fname=document.form1.fname.value;
+                if(fname==""){   
+                alert("Please enter the First Name");document.form1.fname.focus();return false;  
+                }
+                var lname=document.form1.lname.value;
+                if(lname==""){   
+                alert("Please enter the Last Name");document.form1.lname.focus();return false;  
+                }
+                var email=document.form1.email.value;
+                if(email==""){   
+                alert("Please enter the Email id");document.form1.email.focus();return false;  
+                }
+                if(email!=""){ 
+                var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+                var addres = document.form1.email.value;
+                if(reg.test(addres) == false) {
+                    alert('Invalid Email Address');
+                    return false;
+                }
+                }
+                var date=document.form1.date.value;
+                if(date==""){
+                    alert("Please select Date of Birth ");document.form1.date.focus();return false;
+                }
+                document.getElementById("submit").addEventListener("click",function(){
+                var female=document.getElementById("rbtn1");
+                var male=document.getElementById("rbtn2");
+                if(!female.checked && !male.checked){
+                    alert("Please select your gender");
+                    return false;
+                    }
+                });
+                var phone=document.form1.phone.value;
+                if(phone==""){   
+                alert("Please enter the Phone Number");document.form1.phone.focus();return false;  
+                } 
+                else if(isNaN(phone))
+                {
+                    alert("Please enter the Phone Number");document.form1.phone.focus();return false;  
+                }
+                var Address=document.form1.Address.value;
+                if(Address==""){   
+                alert("Please enter the  Address");document.form1.Address.focus();return false;  
+                }    
+                
+                var password=document.form1.password.value;
+                if(password==""){   
+                alert("Please enter the Password");document.form1.password.focus();return false;  
+                }   
+                var cpassword=document.form1.cpassword.value;
+                if(cpassword==""){   
+                alert("Please enter the Confirm Password");document.form1.cpassword.focus();return false;  
+                } 
+                if(password!=cpassword){   
+                alert("Your Confirm Password should not match with Password");document.form1.cpassword.focus();return false;  
+                }       
+                        
+                return true;
+                
+                    
+            }
+         
+        </script>
+    </section>
     
     <script type="text/javascript" src="my-script.js"></script>
     <footer>
@@ -143,6 +212,7 @@
                 <a href="https://www.youtube.com/@Kamarajeng" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                 <a href="http://kamarajengg.edu.in/" target="_blank"><i class="fa-brands fa-google-plus"></i></a>
             </div>
+            
             <div class="footernav">
                 <ul>
                     <li><a href="index.html" >Home</a></li>
